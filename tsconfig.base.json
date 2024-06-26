@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@max-e-informatique/angualr-ui": ["lib/angular-ui/src/index.ts"],
+      "@max-e-informatique/node-mongo": ["lib/node-mongo/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
